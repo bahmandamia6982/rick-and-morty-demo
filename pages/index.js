@@ -17,7 +17,7 @@ const Home = ({ characters }) => {
   return (
     <div>
       <Head>
-        <title>Rick and Morty - DEV Channel</title>
+        <title>Rick and Morty - Fixed</title>
       </Head>
       <main className="container">
         <div>
