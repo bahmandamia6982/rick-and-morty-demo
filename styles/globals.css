@@ -7,10 +7,31 @@ body {
 }
 
 a {
-  color: inherit;
+  transition: all 0.2s ease;
+  color: brown;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  margin-left: 10px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  vertical-align: text-bottom;
+  border-radius: 100%;
+  background-color: green;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
