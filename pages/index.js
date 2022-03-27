@@ -17,7 +17,7 @@ const Home = ({ characters }) => {
   return (
     <div>
       <Head>
-        <title>Rick and Morty - Bahman Fixing</title>
+        <title>Rick and Morty</title>
       </Head>
       <main className="container">
         <div>
