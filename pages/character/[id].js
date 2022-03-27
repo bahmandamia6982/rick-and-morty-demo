@@ -24,13 +24,7 @@ const Home = ({ character }) => {
       </Head>
       <main className="container">
         {console.log(character)}
-        <Image
-          width={250}
-          height={250}
-          layout={"fixed"}
-          quality={5}
-          src={character.image}
-        />
+        <img src={character.image} />
         <h2 style={{ margin: 0, padding: 0, marginTop: 20 }}>
           {character.name}
         </h2>
